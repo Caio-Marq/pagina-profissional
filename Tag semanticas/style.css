@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: lightblue;
+        height: 100px;
+}
+
+.link-fiesp{
+    display: flex;
+    justify-content: flex-end;
+    gap: 42px;
+    background-color: orange;   
+    height: 20px;
+}
+.link-site{
+    background-color: purple;
+    height: 80px;
+}
+
+.main{
+    background-color: tomato;
+        height: 100px;
+        flex-grow: 1;
+}
+
+.footer{
+    background-color: lightgreen;
+        height: 200px;
+}
